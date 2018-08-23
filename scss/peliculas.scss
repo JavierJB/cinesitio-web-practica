@@ -1,0 +1,23 @@
+/* CAROUSEL */
+#carouselPeliculas {
+    .carousel-inner  {
+        border: 5px groove #d1c0db;
+        border-radius: 5px;
+        border-style: outset;
+      }
+      .carousel-caption {
+        color:white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #carouselPeliculas {
+    margin-bottom: 20px;
+     
+  }
+  
+}
+  
+  

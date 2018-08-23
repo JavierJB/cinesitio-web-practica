@@ -1,0 +1,17 @@
+// SERIES
+a.list-group-item.active {
+    background: $myColorVioletaB;
+    border-color: $myColorVioletaB;
+  }
+
+  #listSeriesContenido {
+      text-align: justify;
+  }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #listSeriesContenido {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+

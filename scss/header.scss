@@ -1,0 +1,33 @@
+/* HEADER */
+@import "colors";
+
+  nav {
+    background-color:  $myColorVioletaA;
+    font-family: myFont; 
+    a {
+        font-size: 25px;  
+        color: $myColorVioletaB;
+    }
+    a:hover {
+        color: $myColorAmarilloA;
+    }
+    form {
+        button {
+            background-color: $myColorVioletaB;
+            color: $myColorVioletaA;
+        }
+        button:hover {
+            background-color: $myColorAmarilloA;
+        }
+    }
+  }
+
+  .navbar-toggler {
+  background-color:$myColorVioletaB;
+  }
+
+
+/* .navbar-toggler {
+  color: ;
+} */
+
